@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-JOK5LbBsOjA0DzjQip43N0jf4N8CJIfc+31hU2Z0SFhB6GxMLT83vO0yVxjiW3iitf3RO/eeYIp5X1fNalOapg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+  <div class="navbar">
+    <div class="navbar-left">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTehrghPy1_5EGct1tWpqc6CJZr7EJsS5sKig&usqp=CAU" alt="Facebook Logo" width="50px" height="50px">
+        <div class="search-bar">
+            <input type="text" placeholder="Search Facebook">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+    </div>
+    <div class="navbar-center">
+        <ul class="navbar-menu">
+            <li><a href="#"><i class="fas fa-home"></i></a></li>
+            <li><a href="#"><i class="fas fa-user-friends"></i></a></li>
+            <li><a href="#"><i class="fas fa-video"></i></a></li>
+            <li><a href="#"><i class="fas fa-store"></i></a></li>
+            <li><a href="#"><i class="fas fa-gamepad"></i></a></li>
+        </ul>
+    </div>
+    <div class="navbar-right">
+        <ul class="navbar-menu">
+            <li><a href="#"><i class="fas fa-bars"></i></a></li>
+            <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+            <li><a href="#"><i class="fas fa-bell"></i></a></li>
+            <li><a href="#"><i class="fas fa-user"></i></a></li>
+        </ul>
+    </div>
+</div>
+
+
+    <div class="container">
+      <!-- Left sidebar content -->
+        <div class="left-sidebar">
+              <div class="profile">
+                  <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0PDRANDQ8NDQ4NDQ0REBAODxANDw8PFhIWFhYRExMYHSggGBomGxMVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0ODw0NDysZFRkyKzctKysuKzcrKzctKys3KystKzctNysrNysrLSsrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAbAAEAAwEBAQEAAAAAAAAAAAAAAQQFBgMCB//EADUQAQACAAMEBwYFBQEAAAAAAAABAgMFEQQhMVESQVJxgZKxFSIzobLBEzJhkdEjQnKC8HP/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAFxEBAQEBAAAAAAAAAAAAAAAAAAERAv/aAAwDAQACEQMRAD8A/RJAdGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfXTAfIAAAAAAAAAAAAaINVIjVIgAAAAAAAAAAAAAAAAAAAAAAABXfuji0Nkyq1t956Mco46LGVbDER+JbfaY3RPVDUYtVVwsvwa8K6zHXOsrFcOvKP2fSUV5WwKTxrG9Ux8rw7R7sdGf010aCBHN7Tsd8P80axzjgruqxKRas1nfExpLntu2acK+nGs8JalFYBpAAAAAAAAAAAAAAAAAABcyvZ4vib41isaypN3JaaYfS67SzVaEQkGVQkQACQQrbds8YlJjTfG+J5LQI5KRZzHDiuNaI69/7qzegISqAAAAAAAAAAAAAAAAGjpdirEYVYjd7sOZdRsvw6f4V9Gar2EJZUAAAAQlAMXO49+s84nx4M1qZ7xp3W+zLWICEtoAAAAAAAAAAAAAAAAh0mXYnSwqzyjT9tznGtkmNG/Dnjxju/wClnpWvAhLKgAAAAPm9oiNZ4QDDzrF1xYr2Y9VB6bXidO9rc5nTueTSCQVABQAAAAAAAAAAAAAAfeBizS8XjjEvghKOo2fGi9YtExv5dUvVzmwbX+FbfrNZ4x93QYeJFoiY4Swr7AFAAGVm+17pwq8d3S9Vjb9tjDrpG+86xGnVPOWBa0zMzO+Z4rEQA2gAAAAAAAAAAAAAAAAAABAD22far4f5Z8J3w8RnFa2z5x1Xr4ws1zXB5z5bfw5+SJTBu3zfCjhrbwmPVSxc1xba6aVju3s81XB9XvMzrMzMygFQAUAAAAAAAAAAAAAAAIgB9YeHa06ViZ8F7Ycum/vX1iu7TnLZwsClY0rERozarHwMpvO+89H9FymUYUcZvPjp9mgM6YpeysHlPmk9l4HZnzSugql7KwOzPmlHsrA7M+aV4BR9lYHZnzSeysDsz5pXgFH2VgdmfNL5tlGFPCbx3TH3hoBoyb5LH9t58a6qmNlmNX+3pxzrOvy4uhF1MclaJidJiYmOqd0jqMfZ6XjS9Yn1julibdl9sPfHvU59cd7UopAKgAAAAAAAAAA1suy6JiL38IV8p2bp36U8K+reiGLVIhIIqEgAAAAAAAAAAAiY13SkBg5nsH4c9On5J6uzP8KDq70i0TWY1iY0mHM7XgTh3mk9XCecdTUqPIBpAAAAAABNKzMxEcZmIhC/k2D0sXpTwpGvjPD7pVbGybPGHSKx4zznm9gYUAAAAAAAAAAAAAAAAZ2dYHSp0440+mWi+ManSravarMfIHKiIS6MgAAAAADbyKv9O087+kR/LEb+TR/Rj9bW9dPsnSxeAYUAAAAAAAAAAAAAAAAAByuPXS9o5XtHzfD22z4uJ/6X9ZeLpGQAAAAAB0OUfAr/ALfVLnnQZR8Cvfb6pZ6WLoDKgAAAAAAAAAAAAAAAAiZSDmNu+Nif52eKzmUaY9++J+UKzpEABAAAAB0GT/Ar32+qQZ6WLoDKgAAAAAAAAAAAAAAAIlIA5zNfj3/1+mFUG4gAqAAP/9k=" alt="Profile Picture">
+                  <span class="profile-name">Shahzad Minhaj</span>
+              </div>
+              <ul class="sidebar-menu">
+                  <li><a href="#"><i class="fas fa-user-friends"></i> Find Friends</a></li>
+                  <li><a href="#"><i class="fas fa-clock"></i> Memories</a></li>
+                  <li><a href="#"><i class="fas fa-bookmark"></i> Saved</a></li>
+                  <li><a href="#"><i class="fas fa-users"></i> Groups</a></li>
+                  <li><a href="#"><i class="fas fa-video"></i> Videos</a></li>
+                  <li><a href="#"><i class="fas fa-store"></i> Marketplace</a></li>
+                  <li><a href="#"><i class="fas fa-newspaper"></i> Feeds</a></li>
+                  <li><a href="#"><i class="fas fa-calendar-alt"></i> Events</a></li>
+                  <li><a href="#"><i class="fas fa-ad"></i> Ad Manager</a></li>
+              </ul>
+        </div>
+
+
+        <div class="main-content">
+          <div class="status-update">
+              <textarea placeholder="What's on your mind?" class="abc"></textarea>
+          </div>
+          <div class="status-icons">
+              <label for="file-upload" class="upload-button"><i class="fas fa-photo-video"></i> Photo/video</label>
+              <input id="file-upload" type="file" style="display: none;">
+              <i class="fas fa-video"> Live video</i>
+              <i class="far fa-smile"> Feeling/activity</i>
+          </div>
+          <div id="image-preview" class="image-preview"></div>
+          <button id="post-button" class="btn">Post</button>
+          
+          <!-- Other content goes here -->
+          <div class="content"></div>
+
+      </div>
+      
+      
+
+      
+      
+            <!-- Right sidebar content -->
+            <div class="right-sidebar">
+              <div class="contacts">
+                  <div class="contacts-header">
+                      <p>Contacts</p>
+                      <div class="options">
+                          <i class="fas fa-search"></i>
+                          <i class="fas fa-ellipsis-v"></i>
+                      </div>
+                  </div>
+                  <div class="contacts-list">
+                      <p>Dummy Friend 1</p>
+                      <p>Dummy Friend 2</p>
+                      <p>Dummy Friend 3</p>
+                      <!-- Add more dummy friends as needed -->
+                  </div>
+              </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

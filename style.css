@@ -1,0 +1,362 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.left-sidebar, .right-sidebar {
+    width: 200px;
+    background-color: #f0f2f5;
+    padding: 20px;
+}
+
+.main-content {
+    flex: 1;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.status-update {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.status-update textarea {
+    width: calc(100% - 80px);
+    padding: 5px;
+    border: none;
+    resize: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.status-update button {
+    width: 60px;
+    padding: 5px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.status-update button:hover {
+    background-color: #0e5a9b;
+}
+
+
+
+.left-sidebar {
+    width: 200px;
+    background-color: #f0f2f5;
+    padding: 20px;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.profile1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile img  {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.profile1 img  {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-name .profil-name1{
+    font-weight: bold;
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-menu li {
+    margin-bottom: 25px; /* Add vertical margin */
+}
+
+.sidebar-menu li a {
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-menu li a i {
+    margin-right: 10px;
+}
+
+
+
+
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0866FF;
+    color: #fff;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-center {
+    flex-grow: 1; /* Allow the center section to grow to fill available space */
+}
+
+.navbar-right {
+    display: flex;
+}
+
+.search-bar {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    width: 200px;
+    padding: 5px;
+}
+
+.search-bar button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.navbar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-menu li {
+    margin-right: 10px;
+}
+
+.navbar-menu li a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.navbar-menu li a:hover {
+    color: #f0f2f5;
+}
+
+
+
+
+
+/* left side nav bar */
+
+.right-sidebar {
+    width: 200px;
+    background-color: #f0f2f5;
+    padding: 20px;
+}
+
+.contacts {
+    margin-bottom: 20px;
+}
+
+.contacts-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contacts-header p {
+    font-weight: bold;
+}
+
+.options {
+    display: flex;
+}
+
+.options i {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.contacts-list p {
+    margin-bottom: 5px;
+}
+
+
+/* main content */
+.status-update {
+    margin-bottom: 10px;
+}
+
+.status-icons {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin-bottom: 10px;
+}
+
+.status-icons i {
+    font-size: 24px;
+    color: #606770;
+    margin-right: 10px;
+}
+
+.status-icons i:last-child {
+    margin-right: 0;
+}
+
+.main-content button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.main-content button:hover {
+    background-color: #0e5a9b;
+}
+
+
+/* uploading image */
+
+.upload-button {
+    cursor: pointer;
+    color: #606770;
+    margin-right: 10px;
+}
+
+.upload-button:hover {
+    text-decoration: underline;
+}
+
+.image-preview {
+    display: none;
+    margin-top: 10px;
+}
+
+.image-preview img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.remove-preview {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+}
+
+
+
+/* feed */
+/* Adjustments for feed items */
+.feeds {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.feedText {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.iimage img {
+    width: 100%; /* Make the image take the full width */
+    display: block; /* Ensure the image is displayed as a block element */
+    border-radius: 5px; /* Optional: Add border radius for a nicer look */
+    margin-bottom: 10px; /* Add margin at the bottom for spacing */
+}
+
+
+
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.profile-picture {
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    border-radius: 50%; /* Make it circular */
+    margin-right: 10px; /* Add spacing between profile picture and name */
+}
+
+.profile-name {
+    font-weight: bold;
+}
+
+.actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#xyz, #xyz2, #xyz3{
+    background-color: transparent;
+    color: black;
+}
+.remove-previews{
+    width: 6% !important;
+    border-radius: 50% !important;
+    background-color: transparent !important;
+    font-weight: bold !important;
+    color: #333 !important;
+}
+.remove-previews{
+    position: relative;
+    bottom: 45px;
+    right: 25px;
+
+}

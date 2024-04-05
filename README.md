@@ -6,8 +6,8 @@ This repository contains the code for a simple Facebook clone web application. I
 
 - **Posting Updates**: Users can post updates or status messages.
 - **Uploading Photos/Videos**: Users can upload photos or videos to accompany their posts.
-- **Interacting with Feeds**: Users can like, comment on, and share posts.
-- **Sidebar Navigation**: Includes left and right sidebars for easy navigation to different sections of the application.
+- **Interacting with Feeds**: UI based like, comment on, and share posts.
+- **Sidebar Navigation**: Includes UI based left and right sidebar.
 
 ## Technologies Used
 
@@ -22,7 +22,7 @@ To get a local copy of the project up and running, follow these steps:
 1. Clone the repository:
 git clone https://github.com/YourUsername/Facebook-Clone.git
 2. Open the `index.html` file in your web browser to view the application.
-3. to preview the site click [here](https://clone-facebook-with-shahzad.netlify.app)
+3. to preview the site click [here](https://clonefbsite.netlify.app)
 
 
 
